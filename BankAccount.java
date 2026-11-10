@@ -46,7 +46,7 @@ public class BankAccount {
     }
 
     public static void main(String[] args) {
-        BankAccount account = new BankAccount("Student", 12345, 1500.0);
+        BankAccount account = new BankAccount("Saleh Alzamly", 12345, 1500.0);
 
         account.deposit(300.0);
         account.withdraw(250.0);
